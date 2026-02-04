@@ -564,11 +564,4 @@ data class StateVariable(
     val initialValue: String
 )
 
-enum class StateType {
-    MUTABLE_STATE,
-    REMEMBER,
-    REMEMBER_MUTABLE_STATE,
-    REMEMBER_SAVEABLE,
-    DERIVED_STATE,
-    FLOW_STATE
-}
+// StateType은 com.zime.app.androidtoflutter.models.analysis.StateType 사용

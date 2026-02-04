@@ -245,9 +245,11 @@ data class StateUsageInfo(
 enum class StateType {
     REMEMBER,
     REMEMBER_SAVEABLE,
+    REMEMBER_MUTABLE_STATE,
     MUTABLE_STATE,
     STATE_FLOW,
     SHARED_FLOW,
+    FLOW_STATE,
     LIVE_DATA,
     DERIVED_STATE
 }
