@@ -1,0 +1,6 @@
+<idea-plugin>
+    <!-- Android plugin integration -->
+    <extensions defaultExtensionNs="com.intellij">
+        <!-- Future: Android-specific extensions -->
+    </extensions>
+</idea-plugin>
