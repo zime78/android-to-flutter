@@ -66,9 +66,9 @@
     <!-- Resource bundle for localization -->
     <resource-bundle>messages.PorterBundle</resource-bundle>
 
-    <!-- Kotlin K2 mode compatibility - This plugin uses Kotlin PSI APIs that require K1 mode -->
+    <!-- Kotlin K2 mode compatibility - This plugin uses PSI-based syntactic analysis that works in both K1 and K2 -->
     <extensions defaultExtensionNs="org.jetbrains.kotlin">
-        <supportsKotlinPluginMode supportsK2="false"/>
+        <supportsKotlinPluginMode supportsK2="true"/>
     </extensions>
 
     <!-- Extensions -->
