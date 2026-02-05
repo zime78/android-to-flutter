@@ -66,6 +66,11 @@
     <!-- Resource bundle for localization -->
     <resource-bundle>messages.PorterBundle</resource-bundle>
 
+    <!-- Kotlin K2 mode compatibility - This plugin uses Kotlin PSI APIs that require K1 mode -->
+    <extensions defaultExtensionNs="org.jetbrains.kotlin">
+        <supportsKotlinPluginMode supportsK2="false"/>
+    </extensions>
+
     <!-- Extensions -->
     <extensions defaultExtensionNs="com.intellij">
         <!-- Tool Window -->
